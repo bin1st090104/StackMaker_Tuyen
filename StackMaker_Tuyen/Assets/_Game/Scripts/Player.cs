@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
 
     private Map[] map;
     private int numberOfMap = 2;
-    [SerializeField] private int currenLevel = 0;
+    [SerializeField] private int currenLevel;
     private bool[,] visited;
 
     private Vector2 mouseStartPos;
